@@ -16,3 +16,6 @@ for token in tokenizedStringNoPunctuation:
     if token not in stopwords.words('english'):
         tokenizedStringNoStopwords.append(token)
 print(tokenizedStringNoStopwords)
+# Send the tokenized list to the elastic search function
+# Get the results back as a json object
+# Return the json object to the webpage
